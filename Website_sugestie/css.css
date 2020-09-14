@@ -1,0 +1,70 @@
+body{
+  background: linear-gradient(to right, #33ccff, #0033cc, #0033cc);
+  padding: 20px 0px 0px 20px;
+  margin-right: -20px;
+}
+h1{
+  font-size: 100px;
+}
+.header{
+  width: 100vw;
+  height: 20vh;
+  background-color: inherit;
+}
+.img{
+  height: 140px;
+  width: 140px;
+  float: left;
+}
+.img2{
+  height: 250px;
+  width: 500px;
+  float: right;
+}
+.main{
+  margin-left: -20px;
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+}
+.menu{
+  width: 15vw;
+  height: 80vh;
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15vw;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #0033cc;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #33ccff;
+  color: white;
+}
+.content{
+  padding: 10px 0px 0px 10px;
+  width: 84vw;
+  height: 80vh;
+  float: left;
+  overflow: auto;
+}
+.footer{
+  width: 100vw;
+  height: 10vh;
+  background-color: inherit;
+}
