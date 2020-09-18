@@ -1,2 +1,2 @@
 # heerhugowaard-rijschool
-Dit is de repository 
+Dit is de repository voor Rijschool-Heerhugowaard.
